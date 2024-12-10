@@ -1,0 +1,8 @@
+.md\:grid-cols-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.certi{
+    display: flex;
+    justify-content: center;
+}
