@@ -6,7 +6,7 @@ import ParticlesBackground from '../../ParticlesBackground';
 
 const Home = () => {
   return (
-    <section name="Home" className="relative w-full md:h-screen h-unset">
+    <section name="Home" className="relative w-full md:h-screen h-unset" style={{ backgroundColor: "#0B0F1A" }}>
       <div className="mx-auto flex items-center justify-center h-full px-4 py-16 md:py-0 relative">
         {/* Image */}
         <img

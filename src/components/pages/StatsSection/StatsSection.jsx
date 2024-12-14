@@ -8,7 +8,7 @@ const StatsSection = () => {
   return (
     <Box
       sx={{
-        backgroundColor: '#0b0f1a',
+        backgroundColor: '#0B0F1A',
         color: '#fff',
         minHeight: '100vh',
         display: 'flex',
@@ -33,12 +33,12 @@ const StatsSection = () => {
               >
                 <PeopleAltOutlinedIcon sx={{ fontSize: '4rem', color: '#1e90ff' }} />
                 <Typography variant="h4" sx={{ color: '#1e90ff' }}>
-                  232
+                  4+
                 </Typography>
                 <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
                   Happy Clients
                 </Typography>
-                <Typography variant="body2">consequuntur quae diredo</Typography>
+                <Typography variant="body2" sx={{color: "#4E8CF9"}}>Delivering quality work that keeps our clients happy and satisfied.</Typography>
               </Box>
             </Grid>
 
@@ -52,12 +52,12 @@ const StatsSection = () => {
               >
                 <BarChartOutlinedIcon sx={{ fontSize: '4rem', color: '#1e90ff' }} />
                 <Typography variant="h4" sx={{ color: '#1e90ff' }}>
-                  521
+                  10+
                 </Typography>
                 <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
                   Completed Projects
                 </Typography>
-                <Typography variant="body2">adipisci atque quia aut</Typography>
+                <Typography variant="body2" sx={{color: "#4E8CF9"}}>Explore our completed projects showcasing our dedication and expertise</Typography>
               </Box>
             </Grid>
 
@@ -71,12 +71,12 @@ const StatsSection = () => {
               >
                 <SettingsOutlinedIcon sx={{ fontSize: '4rem', color: '#1e90ff' }} />
                 <Typography variant="h4" sx={{ color: '#1e90ff' }}>
-                  453
+                  24
                 </Typography>
                 <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
                   Hours Of Support
                 </Typography>
-                <Typography variant="body2">aut commodi quaerat</Typography>
+                <Typography variant="body2" sx={{color: "#4E8CF9"}}>Providing reliable support whenever you need it, 24/7.</Typography>
               </Box>
             </Grid>
           </Grid>

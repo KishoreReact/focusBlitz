@@ -8,6 +8,8 @@ import Contact from "./homepage-comps/Contact"
 import CertificateSlider from './homepage-comps/CertificateSlider'
 import WhyChooseUs from './why-choose-us/WhyChooseUs'
 import StatsSection from './StatsSection/StatsSection'
+import FaqSection from './FAQ/Faq'
+import Footer from './Footer/Footer'
 
 const HomePage = () => {
     const certificates = [
@@ -32,8 +34,10 @@ const HomePage = () => {
             <MyProjects />
             {/* <Techs /> */}
             <StatsSection/>
-            <CertificateSlider certificates={certificates} />
+            {/* <CertificateSlider certificates={certificates} /> */}
+            <FaqSection/>
             <Contact />
+            <Footer/>
         </>
     )
 }

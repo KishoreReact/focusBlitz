@@ -24,14 +24,15 @@ const MyProjects = () => {
   return (
     <section
       name="Projects"
-      className="relative w-full text-white md:h-screen h-unset mb-14"
+      className="relative w-full text-white md:h-screen h-unset "
+      style={{ backgroundColor: "#0B0F1A" }}
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full mt-20" style={{ backgroundColor: "#0B0F1A" }}>
         <div className="mb-4">
-          <h2 className="text-4xl font-bold inline border-b-4 border-primary-color/40 sm:text-5xl pb-1">
+          <h2 className="text-4xl font-bold inline border-b-4 border-primary-color/40 sm:text-4xl pb-1">
           Our Recent Works
           </h2>
-          <p className="py-6">Check out some of my work here</p>
+          <p className="py-6">Discover some of our standout projects and see the creativity and expertise we bring to every task. From innovative designs to seamless functionality, our work reflects our commitment to quality and excellence.</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 mb-6">

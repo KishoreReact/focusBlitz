@@ -13,20 +13,20 @@ const SocialLinks = () => {
                 LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: 'https://www.linkedin.com/in/kishore-c-95742712a/',
+            href: 'https://www.linkedin.com/company/focusblitz/about/',
             style: 'rounded-tr-md'
         },
+        // {
+        //     id: 2,
+        //     child: (
+        //         <>
+        //         GitHub <FaGithub size={30} />
+        //         </>
+        //     ),
+        //     href: 'https://github.com/kishorereact'
+        // },
         {
             id: 2,
-            child: (
-                <>
-                GitHub <FaGithub size={30} />
-                </>
-            ),
-            href: 'https://github.com/kishorereact'
-        },
-        {
-            id: 3,
             child: (
                 <>
                 Mail <HiOutlineMail size={30} />
@@ -34,17 +34,17 @@ const SocialLinks = () => {
             ),
             href: 'mailto:kishorekichan12@gmail.com'
         },
-        {
-            id: 4,
-            child: (
-                <>
-                Resume <BsFillPersonLinesFill size={30} />
-                </>
-            ),
-            href: '/Fullstack_developer_kishore.pdf',
-            style: 'rounded-br-md',
-            download: true
-        }
+        // {
+        //     id: 4,
+        //     child: (
+        //         <>
+        //         contact <BsFillPersonLinesFill size={30} />
+        //         </>
+        //     ),
+        //     href: '/Fullstack_developer_kishore.pdf',
+        //     style: 'rounded-br-md',
+        //     download: true
+        // }
     ]
 
     return (
