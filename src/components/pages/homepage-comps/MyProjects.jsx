@@ -27,9 +27,9 @@ const MyProjects = () => {
       className="relative w-full text-white md:h-screen h-unset "
       style={{ backgroundColor: "#0B0F1A" }}
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full mt-20" style={{ backgroundColor: "#0B0F1A" }}>
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full mt-20" style={{ backgroundColor: "#0B0F1A", }}>
         <div className="mb-4">
-          <h2 className="text-4xl font-bold inline border-b-4 border-primary-color/40 sm:text-4xl pb-1">
+          <h2 className="text-4xl font-bold inline border-b-4 border-primary-color/40 sm:text-4xl pb-1" style={{color: '#007bff'}}>
           Our Recent Works
           </h2>
           <p className="py-6">Discover some of our standout projects and see the creativity and expertise we bring to every task. From innovative designs to seamless functionality, our work reflects our commitment to quality and excellence.</p>
