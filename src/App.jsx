@@ -6,6 +6,7 @@ import SocialLinks from "./components/SocialLinks"
 import GeneralFooter from "./components/GeneralFooter"
 import AllProjectsPage from "./components/pages/AllProjectsPage"
 import AllTechsPage from "./components/pages/AllTechsPage"
+import FaqSection from "./components/pages/FAQ/Faq"
 import { useEffect, useMemo } from "react"
 
 //const HomePage = React.lazy(()=>import("./components/pages/HomePage"))
@@ -30,7 +31,7 @@ function App() {
 
         <Route path="/projects" element={<AllProjectsPage />}/>
 
-        <Route path="/technologies" element={<AllTechsPage />}/>
+        <Route path="/faq" element={<FaqSection />}/>
 
       </Routes>
 

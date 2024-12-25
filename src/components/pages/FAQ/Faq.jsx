@@ -35,6 +35,7 @@ const faqData = [
 
 const FaqSection = () => {
   return (
+    <div id="FAQ">
     <Box sx={{ margin: 'auto', textAlign: 'center', backgroundColor: "#0B0F1A" }}>
       <Grid sx={{display: "flex", flexDirection: "column", alignItems: "center"}}>
       {/* Title */}
@@ -69,6 +70,7 @@ const FaqSection = () => {
       ))}
       </Grid>
     </Box>
+    </div>
   );
 };
 

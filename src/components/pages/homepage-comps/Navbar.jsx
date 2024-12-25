@@ -19,15 +19,15 @@ const Navbar = () => {
         },
         {
             id: 4,
-            link: 'Technologies'
+            link: 'FAQ'
         },
-        {
-            id: 5,
-            link: "Education"
-        },
+        // {
+        //     id: 5,
+        //     link: "Education"
+        // },
         {
             id: 6,
-            link: "Contact"
+            link: "Contact Us"
         }
     ]
 
@@ -66,7 +66,8 @@ const Navbar = () => {
                 ))}
             </ul>
 
-            <div onClick={() => setIsShowNav(!isShowNav)} className='cursor-pointer pr-4 z-10 text-gray-100 lg:hidden'>
+            <div onClick={() => setIsShowNav(!isShowNav)} 
+            className='cursor-pointer pr-4 z-10 text-gray-100 lg:hidden'>
                 {isShowNav ? <FaTimes size={30} /> : <FaBars size={30} /> }
             </div>
 

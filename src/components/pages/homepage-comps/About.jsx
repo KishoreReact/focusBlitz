@@ -9,7 +9,7 @@ import FolderIcon from '@mui/icons-material/Folder';
 
 function About() {
   return (
-
+    <div id="About">
     <Grid container spacing={4} padding={15} justifyContent="center" sx={{backgroundColor: "#0B0F1A" }}>
               <div className="mb-4">
           <h2 className="text-4xl font-bold inline border-b-4 border-primary-color/40 sm:text-4xl pb-1" style={{color: '#007bff'}}>
@@ -169,6 +169,7 @@ function About() {
         </Card>
       </Grid>
     </Grid>
+    </div>
   );
 }
 
